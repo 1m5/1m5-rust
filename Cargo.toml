@@ -1,15 +1,17 @@
-[package]
-name = "onemfive"
-homepage = "https://1m5.io"
-version = "0.1.0"
-authors = ["objectorange <objectorange@1m5.io>"]
-edition = "2018"
-package = true
-license = "Unlicense"
+[workspace]
+members = [
+    "platform",
+    "api",
+    "cli",
+    "desktop",
+    "mobile",
+    "relay",
+    "ring",
+    "seed"
+]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.dev]
+opt-level = 0
 
-[dependencies]
-pgp = "0.4.0"
-
-[badges]
+[profile.release]
+opt-level = 3
