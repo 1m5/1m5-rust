@@ -1,7 +1,6 @@
 [workspace]
 members = [
     "platform",
-    "api",
     "cli",
     "desktop",
     "mobile",
