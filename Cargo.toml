@@ -1,9 +1,15 @@
 [package]
 name = "onemfive"
+homepage = "https://1m5.io"
 version = "0.1.0"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
+package = true
+license = "Unlicense"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+pgp = "0.4.0"
+
+[badges]
