@@ -3,14 +3,17 @@ members = [
     "platform",
     "cli",
     "desktop",
-    "mobile",
-    "relay",
-    "ring",
-    "seed"
+    "mobile"
 ]
 
 [profile.dev]
 opt-level = 0
+debug = 2
+
+[profile.test]
+opt-level = 0
+debug = 1
 
 [profile.release]
 opt-level = 3
+debug = 0

@@ -1,4 +1,6 @@
-mod data {
+/// Core Module
+mod core {
+
     use std::collections::VecDeque;
 
     pub struct DynamicRoutingSlip {
@@ -45,9 +47,6 @@ mod data {
         pub routed: bool
 
     }
-}
-
-mod core {
 
     pub trait Service {
         fn handle(&self);

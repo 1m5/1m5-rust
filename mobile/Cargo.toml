@@ -3,9 +3,29 @@ name = "mobile"
 version = "0.7.0"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
-description = "Mobile Dapp for Platform"
+description = "Mobile Dapp for 1M5 Platform"
+publish = false
+readme = "README.md"
+license = "Unlicense"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 platform = { path = "../platform"}
+
+[badges]
+maintenance = { status = "actively-developed"}
+
+[package.metadata.deb]
+maintainer = "objectorange <objectorange@1m5.io>"
+copyright = "Unlicense"
+license-file = ["LICENSE", "0"]
+extended-description = ""
+depends = "$auto"
+section = "admin"
+priority = "optional"
+assets = [
+    ["target/release/mobile", "usr/bin/", "755"],
+    ["README.md", "usr/share/doc/1m5/mobile/README", "644"],
+]
+changelog = "CHANGELOG"
