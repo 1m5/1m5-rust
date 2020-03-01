@@ -3,6 +3,7 @@ name = "ring"
 version = "0.1.0"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
+description = "Runs Platform as a Ring node"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
