@@ -4,8 +4,14 @@ version = "0.7.0"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
 description = "Runs Platform as a Relay"
+publish = false
+readme = "README.md"
+license = "Unlicense"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 platform = { path = "../platform"}
+
+[badges]
+maintenance = { status = "actively-developed"}
