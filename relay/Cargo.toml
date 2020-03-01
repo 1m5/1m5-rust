@@ -1,6 +1,6 @@
 [package]
 name = "relay"
-version = "0.1.0"
+version = "0.7.0"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
 description = "Runs Platform as a Relay"
