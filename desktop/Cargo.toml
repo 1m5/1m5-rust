@@ -6,26 +6,8 @@ edition = "2018"
 description = "Desktop Dapp for 1M5 Platform"
 publish = false
 readme = "README.md"
-license = "Unlicense"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 platform = { path = "../platform"}
-
-[badges]
-maintenance = { status = "actively-developed"}
-
-[package.metadata.deb]
-maintainer = "objectorange <objectorange@1m5.io>"
-copyright = "Unlicense"
-license-file = ["LICENSE", "0"]
-extended-description = ""
-depends = "$auto"
-section = "admin"
-priority = "optional"
-assets = [
-    ["target/release/desktop", "usr/bin/", "755"],
-    ["README.md", "usr/share/doc/1m5/desktop/README", "644"],
-]
-changelog = "CHANGELOG"
