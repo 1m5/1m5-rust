@@ -11,4 +11,4 @@ keywords = ["censorship resistance","privacy","decentralized application"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
+ra_common = "0.0.2"

@@ -2,13 +2,31 @@
 name = "cli"
 version = "0.7.0"
 authors = ["objectorange <objectorange@1m5.io>"]
+license-file = "LICENSE"
 edition = "2018"
-description = "Command-Line Interface for 1M5 Platform"
+description = "A general command line interface"
+homepage = "http://resolvingarchitecture.io"
+documentation = "https://github.com/1m5/1m5-rust"
+repository = "https://github.com/1m5/1m5-rust"
 publish = false
 readme = "README.md"
+keywords = ["cli"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+log = "0.4.8"
+env_logger = "0.7.1"
+failure = "0.1.5"
+exitfailure = "0.5.1"
+
+structopt = "0.3"
+
+ra_common = "0.0.2"
+
 platform = { path = "../platform"}
 
+
+[dev-dependencies]
+assert_cmd = "0.10"
