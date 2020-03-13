@@ -1,6 +1,6 @@
 [package]
 name = "mobile"
-version = "0.7.0"
+version = "0.7.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
 description = "Mobile Dapp for 1M5 Platform"

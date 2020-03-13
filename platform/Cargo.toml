@@ -1,6 +1,6 @@
 [package]
 name = "platform"
-version = "0.7.0"
+version = "0.7.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
 description = "Platform Dapp providing censorship-resistant communications and services"
