@@ -1,5 +1,5 @@
 [package]
-name = "platform"
+name = "1m5_platform"
 version = "0.7.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"

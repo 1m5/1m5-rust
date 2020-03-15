@@ -1,7 +1,6 @@
 use log::{info};
 use std::path::PathBuf;
 use structopt::StructOpt;
-use platform;
 
 #[derive(Debug, StructOpt)]
 #[structopt(name = "1M5 CLI", about = "Exercise the 1M5 Platform")]
