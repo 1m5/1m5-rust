@@ -1,6 +1,6 @@
 [package]
 name = "1m5_platform"
-version = "0.7.1"
+version = "0.0.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
 description = "Platform Dapp providing censorship-resistant communications and services"
@@ -14,6 +14,7 @@ keywords = ["censorship resistance","privacy","decentralized application"]
 log = "0.4.8"
 simple_logger = "1.6.0"
 
+1m5_common = "0.0.1"
 ra_common = "0.0.28"
 seda_bus = "0.0.13"
 

@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "1m5_common",
     "1m5_platform",
     "1m5_cli",
     "1m5_desktop",
