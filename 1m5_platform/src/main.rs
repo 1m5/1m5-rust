@@ -36,18 +36,3 @@ fn main() {
 
     trace!("1M5 Daemon Stopped.");
 }
-
-
-
-/// Maneuvering Condition
-#[derive(Debug)]
-pub enum ManCon {
-    NEO,
-    EXTREME,
-    VERYHIGH,
-    HIGH,
-    MEDIUM,
-    LOW,
-    NONE,
-    UNKNOWN
-}
