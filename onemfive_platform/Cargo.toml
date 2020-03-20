@@ -4,7 +4,10 @@ version = "0.0.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
 description = "Platform Dapp providing censorship-resistant communications and services"
-publish = false
+homepage = "https://1m5.io"
+documentation = "https://github.com/1m5/1m5-rust"
+repository = "https://github.com/1m5/1m5-rust"
+publish = true
 readme = "README.md"
 keywords = ["censorship resistance","privacy","decentralized application"]
 
@@ -17,6 +20,6 @@ simple_logger = "1.6.0"
 ra_common = "0.0.28"
 seda_bus = "0.0.13"
 
-onemfive_common = { path = "../onemfive_common"}
+onemfive_common = "0.0.1"
 
 

@@ -1,14 +1,14 @@
 [package]
 name = "onemfive_cli"
-version = "0.7.1"
+version = "0.0.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 license-file = "LICENSE"
 edition = "2018"
 description = "A general command line interface"
-homepage = "http://resolvingarchitecture.io"
+homepage = "https://1m5.io"
 documentation = "https://github.com/1m5/1m5-rust"
 repository = "https://github.com/1m5/1m5-rust"
-publish = false
+publish = true
 readme = "README.md"
 keywords = ["cli"]
 categories = ["command-line-utilities"]
