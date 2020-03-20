@@ -14,8 +14,9 @@ keywords = ["censorship resistance","privacy","decentralized application"]
 log = "0.4.8"
 simple_logger = "1.6.0"
 
-1m5_common = "0.0.1"
 ra_common = "0.0.28"
 seda_bus = "0.0.13"
+
+1m5_common = { path = "../1m5_common"}
 
 

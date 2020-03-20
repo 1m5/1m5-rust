@@ -11,4 +11,5 @@ readme = "README.md"
 
 [dependencies]
 ra_common = "0.0.2"
-1m5_platform = { path = "../1m5_platform"}
+
+1m5_common = { path = "../1m5_common"}
