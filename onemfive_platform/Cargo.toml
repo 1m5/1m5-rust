@@ -1,5 +1,5 @@
 [package]
-name = "1m5_platform"
+name = "onemfive_platform"
 version = "0.0.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
@@ -17,6 +17,6 @@ simple_logger = "1.6.0"
 ra_common = "0.0.28"
 seda_bus = "0.0.13"
 
-1m5_common = { path = "../1m5_common"}
+onemfive_common = { path = "../onemfive_common"}
 
 

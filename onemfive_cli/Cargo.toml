@@ -1,5 +1,5 @@
 [package]
-name = "1m5_cli"
+name = "onemfive_cli"
 version = "0.7.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 license-file = "LICENSE"
@@ -25,7 +25,7 @@ structopt = "0.3"
 
 ra_common = "0.0.2"
 
-1m5_common = { path = "../1m5_common"}
+onemfive_common = { path = "../onemfive_common"}
 
 
 [dev-dependencies]

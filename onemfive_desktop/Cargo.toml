@@ -1,18 +1,15 @@
 [package]
-name = "1m5_common"
+name = "onemfive_desktop"
 version = "0.0.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
-description = "Common functions for 1M5 programs."
-publish = true
+description = "Desktop Dapp for 1M5 Platform"
+publish = false
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-log = "0.4.8"
-simple_logger = "1.6.0"
+ra_common = "0.0.2"
 
-ra_common = "0.0.28"
-
-
+onemfive_common = { path = "../onemfive_common"}

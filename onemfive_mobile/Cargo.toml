@@ -1,9 +1,9 @@
 [package]
-name = "1m5_desktop"
+name = "onemfive_mobile"
 version = "0.0.1"
 authors = ["objectorange <objectorange@1m5.io>"]
 edition = "2018"
-description = "Desktop Dapp for 1M5 Platform"
+description = "Mobile Dapp for 1M5 Platform"
 publish = false
 readme = "README.md"
 
@@ -12,4 +12,4 @@ readme = "README.md"
 [dependencies]
 ra_common = "0.0.2"
 
-1m5_common = { path = "../1m5_common"}
+onemfive_common = { path = "../onemfive_common"}
